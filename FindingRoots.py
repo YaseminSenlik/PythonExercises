@@ -1,4 +1,4 @@
-#our equations with two unknown is ax^2+bx+c
+#an equation with two unknown is ax^2+bx+c
 
 a=int(input("Please enter a number: "))
 b=int(input("Please enter a number: "))
