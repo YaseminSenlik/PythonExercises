@@ -1,0 +1,23 @@
+user_Name="Wiame"
+pass_word="1234"
+max_trial=3
+
+
+while True:
+    userName = input("Enter your user name:")
+    password = input("Enter your password:")
+    if(userName!=user_Name and password==pass_word):
+        print("User Name is wrong")
+        max_trial-=1
+    elif(user_Name==userName and password!=pass_word):
+        print("Password is wrong")
+        max_trial-=1
+    elif(userName!=user_Name and password!=pass_word):
+        print("User name adn password is wrong")
+        max_trial-=1
+    else:
+        print("Success")
+        break
+    if(max_trial==0):
+        print("Max trial is 3")
+        break
